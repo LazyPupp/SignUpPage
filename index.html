@@ -16,19 +16,21 @@
 		<form action="signup">
 			<fieldset name="sign-up" class="sign">
 				<legend class="title center">Sign up</legend>
-				<label >Email</label>
+				<label for="email" >Email</label>
 				<input type="email" placeholder="foo@bar.com" required class="email center" name="email" id="email">
-				<label > Password</label>
+
+				<label for="password"> Password</label>
 				<input type="password" placeholder="1234passw0rd" required class="password center" name="password" id="password">
+				
 				<button type="submit" class="button center">Sign up</button>
 				<div>
-					<a href="" class="forgot center">Forgot password?</a>
+					<a href="/forgot_password/new" class="forgot center">Forgot password?</a>
 				</div>
 			</fieldset>
 		</form>
 	</main>
 	<div>
-		<p class="acc">Already have an account? <a href="" class="acc">Log In</a></p>
+		<p class="acc">Already have an account? <a href="/login" class="acc">Log In</a></p>
 	</div>
 </body>
 </html>
