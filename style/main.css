@@ -1,0 +1,70 @@
+/*background*/
+body{
+	background-color: rgb(41,142,234);
+	padding-top:70px;
+}
+.center{
+	margin-left:auto;
+	margin-right:auto;
+}
+div{
+	text-align:center;
+}
+.logo{
+	height:35px;
+}
+/*White box*/
+.sign-up-box{
+	width:320px;
+	padding:40px;
+	background-color:white;
+	height:395px;
+	margin-top:30px;
+	border-radius: 2px;
+}
+/*Inside white box*/
+.sign{
+	border:0px;
+	padding:0px;
+	margin:0px;
+}
+.title{
+	color:slategray;
+	font-size:35px;
+	margin-bottom:30px;
+}
+.email, .password, .button{
+	width:286px;
+	padding:15px;
+	border-radius:2px;
+	font-size:18px;
+
+}
+.email,.password{
+	border:2px solid gainsboro;
+	color:gray;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.email::-webkit-input-placeholder, {
+
+}
+.password{
+
+}
+.button{
+	background-color:mediumseagreen;
+	color:white;
+	width:320px;
+	border:2px solid mediumseagreen;
+	margin-bottom:10px;
+}
+.forgot{
+	color:darkgray;
+	font-size:14px;
+}
+/*outside box*/
+.acc{
+	color:white;
+	font-weight:bold;
+}
